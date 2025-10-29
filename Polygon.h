@@ -1,0 +1,15 @@
+#pragma once
+#include <vector>
+#include "Point.hpp"
+#include "Vector.hpp"
+
+class Polygon {
+public:
+    Polygon(const std::vector<Point>& vertices);
+    void show() const;
+    bool isConvex() const;
+    const std::vector<Point>& getVertices() const;
+
+private:
+    std::vector<Point> m_vertices;
+};
