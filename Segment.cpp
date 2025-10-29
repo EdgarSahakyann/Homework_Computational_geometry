@@ -1,4 +1,4 @@
-#include "Segment.hpp"
+#include "Segment.h"
 #include <iostream>
 
 Segment::Segment(const Point& a, const Point& b) : m_a(a), m_b(b) {}
