@@ -1,6 +1,6 @@
 #pragma once
-#include "Point.hpp"
-#include "Vector.hpp"
+#include "Point.h"
+#include "Vector.h"
 
 class Ray {
 public:
