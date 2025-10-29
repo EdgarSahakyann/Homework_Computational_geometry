@@ -1,4 +1,4 @@
-#include "Vector.hpp"
+#include "Vector.h"
 #include <iostream>
 
 Vector::Vector(float x, float y) : m_x(x), m_y(y) {}
