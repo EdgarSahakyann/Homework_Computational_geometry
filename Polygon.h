@@ -1,7 +1,7 @@
 #pragma once
 #include <vector>
-#include "Point.hpp"
-#include "Vector.hpp"
+#include "Point.h"
+#include "Vector.h"
 
 class Polygon {
 public:
