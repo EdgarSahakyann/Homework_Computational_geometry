@@ -1,4 +1,4 @@
-#include "Point.hpp"
+#include "Point.h"
 #include <iostream>
 
 Point::Point(float x, float y) : m_x(x), m_y(y) {}
